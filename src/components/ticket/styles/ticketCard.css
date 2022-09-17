@@ -1,0 +1,55 @@
+.closed {
+  background-color: #FE5F55;
+  
+}
+
+.open {
+  background-color: #94C9A9;
+}
+
+.ticket-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 10%;
+  text-align: center;
+}
+
+.ticket-details{
+  width: 70%;
+}
+
+.ticket-subject{
+  margin:0.5rem 0;
+  border-radius: 5px;
+  background-color: #777DA7;
+  color : white ;
+  padding: 0.3rem;
+  max-width: fit-content;
+  text-align: center;
+
+}
+
+.ticket-card {
+  flex-direction: row;
+  border: 1px solid rgb(92, 92, 92);
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  display: flex;
+}
+
+.ticket-status {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color : white;
+}
+
+@media only screen and (max-width: 600px) {
+  .ticket-card {
+    flex-direction: column;
+  }
+  .ticket-card * {
+    width: 100%;
+  }
+}

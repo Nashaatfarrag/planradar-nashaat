@@ -1,0 +1,39 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.page-numbers {
+  list-style: none;
+  display: flex;
+}
+
+.page-numbers li {
+  padding: 10px;
+}
+
+.page-numbers li.active {
+  border-radius: 5px;
+  background-color: rgb(255, 184, 184);
+  color: black;
+}
+
+.page-numbers li.button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.page-numbers li.button:hover {
+  background-color: white;
+  color: black;
+}
+
+.page-numbers li.button:focus {
+  outline: none;
+}
